@@ -1,0 +1,208 @@
+[2019-05-16 15:49:05,428][INFO ][node                     ] [Mentor] version[1.7.4], pid[1], build[0d3159b/2015-12-15T11:25:18Z]
+[2019-05-16 15:49:05,429][INFO ][node                     ] [Mentor] initializing ...
+[2019-05-16 15:49:05,529][INFO ][plugins                  ] [Mentor] loaded [], sites []
+[2019-05-16 15:49:05,590][INFO ][env                      ] [Mentor] using [1] data paths, mounts [[/data (osxfs)]], net usable_space [34.8gb], net total_space [464.7gb], types [fuse.osxfs]
+[2019-05-16 15:49:08,213][INFO ][node                     ] [Mentor] initialized
+[2019-05-16 15:49:08,214][INFO ][node                     ] [Mentor] starting ...
+[2019-05-16 15:49:08,409][INFO ][transport                ] [Mentor] bound_address {inet[/0.0.0.0:9300]}, publish_address {inet[/172.17.0.2:9300]}
+[2019-05-16 15:49:08,441][INFO ][discovery                ] [Mentor] elasticsearch/L7t_IhmLRJqdQTTwG0mMCA
+[2019-05-16 15:49:12,218][INFO ][cluster.service          ] [Mentor] new_master [Mentor][L7t_IhmLRJqdQTTwG0mMCA][4c5a0b416cc0][inet[/172.17.0.2:9300]], reason: zen-disco-join (elected_as_master)
+[2019-05-16 15:49:12,305][INFO ][http                     ] [Mentor] bound_address {inet[/0.0.0.0:9200]}, publish_address {inet[/172.17.0.2:9200]}
+[2019-05-16 15:49:12,306][INFO ][node                     ] [Mentor] started
+[2019-05-16 15:49:12,319][INFO ][gateway                  ] [Mentor] recovered [0] indices into cluster_state
+[2019-05-16 15:49:42,195][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 34.8gb[7.4%], shards will be relocated away from this node
+[2019-05-16 15:49:42,195][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 15:50:12,157][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 34.8gb[7.4%], shards will be relocated away from this node
+[2019-05-16 15:50:42,121][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 34.8gb[7.4%], shards will be relocated away from this node
+[2019-05-16 15:51:12,086][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 34.8gb[7.4%], shards will be relocated away from this node
+[2019-05-16 15:51:12,087][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 15:51:42,050][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 34.8gb[7.4%], shards will be relocated away from this node
+[2019-05-16 15:52:12,015][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 34.8gb[7.4%], shards will be relocated away from this node
+[2019-05-16 15:52:12,016][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 15:52:41,980][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 34.8gb[7.4%], shards will be relocated away from this node
+[2019-05-16 15:53:11,944][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 34.8gb[7.4%], shards will be relocated away from this node
+[2019-05-16 15:53:11,945][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 15:53:41,910][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 34.8gb[7.4%], shards will be relocated away from this node
+[2019-05-16 15:54:11,874][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 34.8gb[7.4%], shards will be relocated away from this node
+[2019-05-16 15:54:11,874][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 15:54:41,839][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 35.8gb[7.7%], shards will be relocated away from this node
+[2019-05-16 15:55:11,804][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 35.8gb[7.7%], shards will be relocated away from this node
+[2019-05-16 15:55:11,805][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 15:55:41,769][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 35.8gb[7.7%], shards will be relocated away from this node
+[2019-05-16 15:56:11,735][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 35.8gb[7.7%], shards will be relocated away from this node
+[2019-05-16 15:56:11,742][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 15:56:41,698][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 35.8gb[7.7%], shards will be relocated away from this node
+[2019-05-16 15:57:11,663][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 35.8gb[7.7%], shards will be relocated away from this node
+[2019-05-16 15:57:41,627][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 35.8gb[7.7%], shards will be relocated away from this node
+[2019-05-16 15:57:41,628][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 15:58:11,592][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 35.8gb[7.7%], shards will be relocated away from this node
+[2019-05-16 15:58:41,556][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 35.8gb[7.7%], shards will be relocated away from this node
+[2019-05-16 15:58:41,557][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 15:59:11,520][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 35.8gb[7.7%], shards will be relocated away from this node
+[2019-05-16 15:59:41,485][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 35.8gb[7.7%], shards will be relocated away from this node
+[2019-05-16 15:59:41,486][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 16:00:11,452][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 36.8gb[7.9%], shards will be relocated away from this node
+[2019-05-16 16:00:41,416][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 36.8gb[7.9%], shards will be relocated away from this node
+[2019-05-16 16:00:41,417][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 16:01:11,380][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 36.8gb[7.9%], shards will be relocated away from this node
+[2019-05-16 16:01:41,346][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 36.8gb[7.9%], shards will be relocated away from this node
+[2019-05-16 16:01:41,347][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 16:02:11,310][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 36.8gb[7.9%], shards will be relocated away from this node
+[2019-05-16 16:02:41,275][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 36.8gb[7.9%], shards will be relocated away from this node
+[2019-05-16 16:02:41,275][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 16:03:11,239][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 36.8gb[7.9%], shards will be relocated away from this node
+[2019-05-16 16:03:41,203][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 36.8gb[7.9%], shards will be relocated away from this node
+[2019-05-16 16:03:41,206][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 16:04:11,168][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 36.8gb[7.9%], shards will be relocated away from this node
+[2019-05-16 16:04:41,133][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 36.8gb[7.9%], shards will be relocated away from this node
+[2019-05-16 16:04:41,134][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 16:05:11,098][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 36.8gb[7.9%], shards will be relocated away from this node
+[2019-05-16 16:05:41,063][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 36.8gb[7.9%], shards will be relocated away from this node
+[2019-05-16 16:05:41,065][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 16:06:11,028][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 36.8gb[7.9%], shards will be relocated away from this node
+[2019-05-16 16:06:40,992][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 36.8gb[7.9%], shards will be relocated away from this node
+[2019-05-16 16:06:40,993][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 16:07:10,959][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 36.8gb[7.9%], shards will be relocated away from this node
+[2019-05-16 16:07:40,922][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 34.8gb[7.5%], shards will be relocated away from this node
+[2019-05-16 16:07:40,923][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 16:08:10,888][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 33.8gb[7.2%], shards will be relocated away from this node
+[2019-05-16 16:08:40,852][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 33.8gb[7.2%], shards will be relocated away from this node
+[2019-05-16 16:08:40,853][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 16:09:10,816][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 33.7gb[7.2%], shards will be relocated away from this node
+[2019-05-16 16:09:40,780][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 33.7gb[7.2%], shards will be relocated away from this node
+[2019-05-16 16:09:40,781][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 16:10:10,744][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 34.7gb[7.4%], shards will be relocated away from this node
+[2019-05-16 16:10:40,708][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 34.6gb[7.4%], shards will be relocated away from this node
+[2019-05-16 16:10:40,709][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 16:11:10,673][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 34.6gb[7.4%], shards will be relocated away from this node
+[2019-05-16 16:11:40,637][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 34.3gb[7.3%], shards will be relocated away from this node
+[2019-05-16 16:11:40,638][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 16:12:10,601][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 34.5gb[7.4%], shards will be relocated away from this node
+[2019-05-16 16:12:40,565][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 35.1gb[7.5%], shards will be relocated away from this node
+[2019-05-16 16:12:40,566][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 16:13:10,532][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 36.1gb[7.7%], shards will be relocated away from this node
+[2019-05-16 16:13:40,496][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 36.1gb[7.7%], shards will be relocated away from this node
+[2019-05-16 16:13:40,499][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 16:14:10,461][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 36gb[7.7%], shards will be relocated away from this node
+[2019-05-16 16:14:40,616][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 36gb[7.7%], shards will be relocated away from this node
+[2019-05-16 16:14:40,619][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 16:15:10,580][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 36gb[7.7%], shards will be relocated away from this node
+[2019-05-16 16:15:40,544][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 36gb[7.7%], shards will be relocated away from this node
+[2019-05-16 16:16:10,510][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 37gb[7.9%], shards will be relocated away from this node
+[2019-05-16 16:16:10,513][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 16:16:40,473][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 37gb[7.9%], shards will be relocated away from this node
+[2019-05-16 16:17:10,437][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 37gb[7.9%], shards will be relocated away from this node
+[2019-05-16 16:17:40,403][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 37gb[7.9%], shards will be relocated away from this node
+[2019-05-16 16:17:40,405][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 16:18:10,366][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 37gb[7.9%], shards will be relocated away from this node
+[2019-05-16 16:18:40,331][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 37gb[7.9%], shards will be relocated away from this node
+[2019-05-16 16:18:40,334][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 16:19:10,297][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 37gb[7.9%], shards will be relocated away from this node
+[2019-05-16 16:19:40,262][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 37gb[7.9%], shards will be relocated away from this node
+[2019-05-16 16:19:40,265][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 16:20:10,226][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 33gb[7.1%], shards will be relocated away from this node
+[2019-05-16 16:20:40,192][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 33gb[7.1%], shards will be relocated away from this node
+[2019-05-16 16:21:10,171][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 33gb[7.1%], shards will be relocated away from this node
+[2019-05-16 16:21:10,172][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 16:21:40,119][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 33gb[7.1%], shards will be relocated away from this node
+[2019-05-16 16:22:10,084][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 34gb[7.3%], shards will be relocated away from this node
+[2019-05-16 16:22:40,048][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 35gb[7.5%], shards will be relocated away from this node
+[2019-05-16 16:22:40,048][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 16:23:10,014][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 35gb[7.5%], shards will be relocated away from this node
+[2019-05-16 16:23:39,978][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 35gb[7.5%], shards will be relocated away from this node
+[2019-05-16 16:23:39,978][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 16:24:09,944][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 35gb[7.5%], shards will be relocated away from this node
+[2019-05-16 16:24:39,908][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 35gb[7.5%], shards will be relocated away from this node
+[2019-05-16 16:24:39,909][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 16:25:09,873][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 35gb[7.5%], shards will be relocated away from this node
+[2019-05-16 16:25:39,837][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 35gb[7.5%], shards will be relocated away from this node
+[2019-05-16 16:25:39,838][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 16:26:09,802][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 35gb[7.5%], shards will be relocated away from this node
+[2019-05-16 16:26:39,766][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 34.5gb[7.4%], shards will be relocated away from this node
+[2019-05-16 16:26:39,767][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 16:27:09,732][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 34.5gb[7.4%], shards will be relocated away from this node
+[2019-05-16 16:27:39,696][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 34.5gb[7.4%], shards will be relocated away from this node
+[2019-05-16 16:27:39,697][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 16:28:09,661][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 34.5gb[7.4%], shards will be relocated away from this node
+[2019-05-16 16:28:39,626][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 34.4gb[7.4%], shards will be relocated away from this node
+[2019-05-16 16:28:39,627][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 16:29:09,589][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 34.4gb[7.4%], shards will be relocated away from this node
+[2019-05-16 16:29:39,554][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 35.4gb[7.6%], shards will be relocated away from this node
+[2019-05-16 16:29:39,554][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 16:30:09,518][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 35.4gb[7.6%], shards will be relocated away from this node
+[2019-05-16 16:30:39,483][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 35.4gb[7.6%], shards will be relocated away from this node
+[2019-05-16 16:30:39,484][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 16:31:09,447][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 35.4gb[7.6%], shards will be relocated away from this node
+[2019-05-16 16:31:39,413][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 35.4gb[7.6%], shards will be relocated away from this node
+[2019-05-16 16:31:39,414][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 16:32:09,377][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 34.8gb[7.5%], shards will be relocated away from this node
+[2019-05-16 16:32:39,341][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 33.7gb[7.2%], shards will be relocated away from this node
+[2019-05-16 16:33:09,307][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 33.7gb[7.2%], shards will be relocated away from this node
+[2019-05-16 16:33:09,308][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 16:33:39,271][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 33.7gb[7.2%], shards will be relocated away from this node
+[2019-05-16 16:34:09,235][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 33.7gb[7.2%], shards will be relocated away from this node
+[2019-05-16 16:34:09,236][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 16:34:39,199][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 33.1gb[7.1%], shards will be relocated away from this node
+[2019-05-16 16:35:09,164][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 34gb[7.3%], shards will be relocated away from this node
+[2019-05-16 16:35:09,165][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 16:35:39,129][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 35gb[7.5%], shards will be relocated away from this node
+[2019-05-16 16:36:09,094][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 35gb[7.5%], shards will be relocated away from this node
+[2019-05-16 16:36:09,095][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 16:36:39,057][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 35gb[7.5%], shards will be relocated away from this node
+[2019-05-16 16:37:09,022][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 35gb[7.5%], shards will be relocated away from this node
+[2019-05-16 16:37:09,023][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 16:37:38,987][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 35gb[7.5%], shards will be relocated away from this node
+[2019-05-16 16:38:08,954][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 35gb[7.5%], shards will be relocated away from this node
+[2019-05-16 16:38:08,955][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 16:38:38,922][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 35gb[7.5%], shards will be relocated away from this node
+[2019-05-16 16:39:08,886][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 35gb[7.5%], shards will be relocated away from this node
+[2019-05-16 16:39:08,887][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 16:39:38,851][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 35gb[7.5%], shards will be relocated away from this node
+[2019-05-16 16:40:08,815][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 35gb[7.5%], shards will be relocated away from this node
+[2019-05-16 16:40:08,816][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 16:40:38,779][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 35gb[7.5%], shards will be relocated away from this node
+[2019-05-16 16:41:08,743][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 34gb[7.3%], shards will be relocated away from this node
+[2019-05-16 16:41:08,744][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 16:41:38,707][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 34gb[7.3%], shards will be relocated away from this node
+[2019-05-16 16:42:08,671][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 34gb[7.3%], shards will be relocated away from this node
+[2019-05-16 16:42:08,671][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 16:42:38,637][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 34gb[7.3%], shards will be relocated away from this node
+[2019-05-16 16:43:08,602][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 34gb[7.3%], shards will be relocated away from this node
+[2019-05-16 16:43:08,603][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 16:43:38,566][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 34gb[7.3%], shards will be relocated away from this node
+[2019-05-16 16:44:08,529][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 34gb[7.3%], shards will be relocated away from this node
+[2019-05-16 16:44:08,529][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 16:44:38,495][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 34gb[7.3%], shards will be relocated away from this node
+[2019-05-16 16:45:08,461][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 35gb[7.5%], shards will be relocated away from this node
+[2019-05-16 16:45:08,462][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 16:45:38,426][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 35gb[7.5%], shards will be relocated away from this node
+[2019-05-16 16:46:08,389][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 35gb[7.5%], shards will be relocated away from this node
+[2019-05-16 16:46:08,390][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 16:46:38,353][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 35gb[7.5%], shards will be relocated away from this node
+[2019-05-16 16:47:08,318][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 35gb[7.5%], shards will be relocated away from this node
+[2019-05-16 16:47:08,319][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 16:47:38,284][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 35gb[7.5%], shards will be relocated away from this node
+[2019-05-16 16:48:08,246][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 35gb[7.5%], shards will be relocated away from this node
+[2019-05-16 16:48:08,247][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 16:48:38,207][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 34.9gb[7.5%], shards will be relocated away from this node
+[2019-05-16 16:49:08,177][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 34.9gb[7.5%], shards will be relocated away from this node
+[2019-05-16 16:49:08,178][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 16:49:38,142][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 34.9gb[7.5%], shards will be relocated away from this node
+[2019-05-16 16:50:08,105][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 35.9gb[7.7%], shards will be relocated away from this node
+[2019-05-16 16:50:08,108][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 16:50:38,070][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 35.9gb[7.7%], shards will be relocated away from this node
+[2019-05-16 16:51:08,034][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 35.9gb[7.7%], shards will be relocated away from this node
+[2019-05-16 16:51:37,999][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 35.9gb[7.7%], shards will be relocated away from this node
+[2019-05-16 16:51:38,002][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 16:52:07,963][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 35.9gb[7.7%], shards will be relocated away from this node
+[2019-05-16 16:52:37,927][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 35.9gb[7.7%], shards will be relocated away from this node
+[2019-05-16 16:52:37,930][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 16:53:07,895][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 35.9gb[7.7%], shards will be relocated away from this node
+[2019-05-16 16:53:37,857][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 35.9gb[7.7%], shards will be relocated away from this node
+[2019-05-16 16:54:07,821][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 35.9gb[7.7%], shards will be relocated away from this node
+[2019-05-16 16:54:07,822][INFO ][cluster.routing.allocation.decider] [Mentor] high disk watermark exceeded on one or more nodes, rerouting shards
+[2019-05-16 16:54:37,785][WARN ][cluster.routing.allocation.decider] [Mentor] high disk watermark [90%] exceeded on [L7t_IhmLRJqdQTTwG0mMCA][Mentor] free: 35.9gb[7.7%], shards will be relocated away from this node
+[2019-05-16 16:55:04,031][INFO ][node                     ] [Mentor] stopping ...
+[2019-05-16 16:55:04,143][INFO ][node                     ] [Mentor] stopped
+[2019-05-16 16:55:04,144][INFO ][node                     ] [Mentor] closing ...
+[2019-05-16 16:55:04,185][INFO ][node                     ] [Mentor] closed
